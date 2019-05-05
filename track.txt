@@ -1,0 +1,32 @@
+
+
+
+
+intro
+
+- raw js
+- transpile webpack
+- vue cli
+
+=== tech demo: vue ui ===
+- plugins: pug
+
+vue dev tools
+component
+- name 
+- data
+- 
+
+
+# router
+- route props
+- route query params
+- lazy loading
+
+# store: Vuex
+
+# unit testing
+
+# CLI
+
+# SSR

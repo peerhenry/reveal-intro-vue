@@ -3,16 +3,23 @@
     .reveal
       .slides
         section
-          h1 Intro VueJS (+ vs Angular)
+          h1 Introductie VueJS
+          h1 + vs. Angular
+          .row
+            .col-50
+              img(src="./assets/angular.jpg" height="300")
+            .col-50
+              img(src="./assets/logo.png" height="300")
         section
           h2 Frontend learnings History
-          .col-50
-            img(src="./assets/original.gif")
-          .col-50
-            p.fragment AngularJS :D
-            p.fragment React :D
-            p.fragment VueJS :D
-            p.fragment Angular :-/
+          .row
+            .col-50
+              img(src="./assets/original.gif")
+            .col-50
+              p.fragment AngularJS :D
+              p.fragment React :D
+              p.fragment VueJS :D
+              p.fragment Angular :-/
         section
           h2 Getting started...
           p.fragment Raw JS
@@ -27,17 +34,22 @@
           p.fragment Route guards
 
         section
+          img.abs-indicator(src="./assets/angular.jpg" height="100")
           h4 Accessing route parameters in Angular
           img(src="./assets/snippets/route_param_ng.png")
         section
           h4 Accessing route parameters in Vue
+          img.abs-indicator(src="./assets/logo.png" height="100")
           img(src="./assets/snippets/route_param_vue.png")
         section
           h4 Reactivity
-          .col-50
-            p Alles is Observable (RxJS)
-          .col-50
-            p Alles is reactive
+          .row
+            .col-50
+              img.indicator(src="./assets/angular.jpg" height="50")
+              span Alles is Observable (RxJS)
+            .col-50
+              img.indicator(src="./assets/logo.png" height="50")
+              span Alles is reactive
 
         section(data-transition="slide-in fade-out")
           h4 Setting up a counter store in Angular
@@ -64,10 +76,13 @@
         
         section
           h2 modules
-          .col-50
-            p containers for components, directives, 
-          .col-50
-            p container for piece of store
+          .row
+            .col-50
+              img.indicator(src="./assets/angular.jpg" height="50")
+              span containers for components, directives, services, etc.
+            .col-50
+              img.indicator(src="./assets/logo.png" height="50")
+              span container for piece of store
         section(data-transition="slide-in fade-out")
           img(src="./assets/modules_1.png")
         section(data-transition="fade-in-out")
@@ -79,17 +94,34 @@
 
         section
           h2 dependency injection
+          p Todo: show a snippet
+
+        section
+          h2 Unit testing
+          p Todo: show a snippet
         
         section
           h2 CLI
+          .row
+            .col-50
+              img.indicator(src="./assets/angular.jpg" height="50")
+              span scaffolding
+            .col-50
+              img.indicator(src="./assets/logo.png" height="50")
+              span UI
+
+        section
+          h2 Server side rendering
+          .row
+            .col-50
+              img.indicator(src="./assets/angular.jpg" height="50")
+              span @nguniversal/express-engine
+            .col-50
+              img.indicator(src="./assets/logo.png" height="50")
+              span vue-server-renderer
         
         section
-          h2 Unit testing
-        
-        section
-          h2 Unit testing
-        
-        section
+          img(src="./assets/parrot.gif")
 </template>
 
 <script>
@@ -120,8 +152,38 @@ export default {
   height: 100vh;
 }
 
+.row {
+  display: flex;
+}
+
 .col-50 {
   width: 50%;
-  display: inline-block;
+  display: block;
+  float: left;
+  padding: 1em;
+  box-sizing: border-box;
+  background-color: #222;
+
+  &:nth-child(even) {
+    background-color: #444;
+  }
+}
+
+.reveal section img {
+  background-color: white;
+  margin: 0;
+}
+
+.abs-indicator {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  background-color: white;
+}
+
+.indicator {
+  float: left;
+  margin: 0 0;
+  background-color: white;
 }
 </style>

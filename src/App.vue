@@ -11,6 +11,19 @@
             .col-50
               img(src="./assets/logo.png" height="300")
         section
+          h2 Getting started...
+          p.fragment Raw JS
+          p.fragment Webpack
+          p.fragment Vue CLI
+        section
+          h2 DEMO
+          p.fragment Vue UI
+          p.fragment Component structure
+          p.fragment Router
+          p.fragment Lazy loading
+          p.fragment Route guards
+
+        section
           h2 Frontend learnings History
           .row
             .col-50
@@ -25,18 +38,10 @@
         section
           img(src="./assets/downloads.png")
         section
-          h2 Getting started...
-          p.fragment Raw JS
-          p.fragment Webpack
-          p.fragment Vue CLI
-        section
-          h2 DEMO
-          p.fragment Vue UI
-          p.fragment Component structure
-          p.fragment Router
-          p.fragment Lazy loading
-          p.fragment Route guards
-
+          div
+            img(src="./assets/comparison.png" height="600")
+          label stateofjs.com
+        
         section
           h1 1. Reactivity
         section
@@ -176,7 +181,8 @@
             li Performance
             li Bundle size
             li Customization
-            li callbacks
+            li Templating
+            li Callbacks
 
         section
           img(src="./assets/parrot.gif")

@@ -34,6 +34,8 @@
           p.fragment Route guards
 
         section
+          h1 1. Reactivity
+        section
           img.abs-indicator(src="./assets/angular.jpg" height="100")
           h4 Accessing route parameters in Angular
           img(src="./assets/snippets/route_param_ng.png")
@@ -51,29 +53,55 @@
               img.indicator(src="./assets/logo.png" height="50")
               span Alles is reactive
 
+        section
+          h1 2. State management
         section(data-transition="slide-in fade-out")
-          h4 Setting up a counter store in Angular
+          h4 Setting up a counter store
+          img.abs-indicator-two(src="./assets/angular.jpg" height="100")
           p part 1: define actions
           img(src="./assets/snippets/counter_actions_ng.png" height="500")
         section(data-transition="fade-in fate-out")
-          h4 Setting up a counter store in Angular
+          h4 Setting up a counter store
+          img.abs-indicator-two(src="./assets/angular.jpg" height="100")
           p part 2: write reducer
           img(src="./assets/snippets/counter_reducer_ng.png" height="500")
-        section(data-transition="fade-in slide-out")
-          h4 Setting up a counter store in Angular
+        section(data-transition="fade-in-out")
+          h4 Setting up a counter store
+          img.abs-indicator-two(src="./assets/angular.jpg" height="100")
           p part 3: configure module
-          img(src="./assets/snippets/counter_module_ng.png" )
-        section
-          h4 Setting up a counter store in Vue
-          img(src="./assets/snippets/counter_store_vue.png")
-
-        section
-          h4 Accessing the store in Angular
+          img(src="./assets/snippets/counter_module_ng.png" height="500")
+        section(data-transition="fade-in slide-out")
+          h4 Accessing the store
+          img.abs-indicator-two(src="./assets/angular.jpg" height="100")
           img(src="./assets/snippets/counter_component_ng.png" height="580")
-        section
+
+        section(data-transition="slide-in fade-out")
+          h4 Setting up a counter store in Vue
+          img.abs-indicator-two(src="./assets/logo.png" height="100")
+          img(src="./assets/snippets/counter_store_vue.png")
+        section(data-transition="fade-in slide-out")
           h4 Accessing the store in Vue
+          img.abs-indicator-two(src="./assets/logo.png" height="100")
           img(src="./assets/snippets/counter_component_vue.png")
         
+        section
+          h2 using the store
+          .row
+            .col-50
+              img.indicator(src="./assets/angular.jpg" height="50")
+              div
+                img(src="./assets/snippets/counter_actions_ng.png" height="120")
+                img(src="./assets/snippets/counter_reducer_ng.png" height="120")
+                img(src="./assets/snippets/counter_module_ng.png" height="120")
+                img(src="./assets/snippets/counter_component_ng.png" height="120")
+            .col-50
+              img.indicator(src="./assets/logo.png" height="50")
+              div
+                img(src="./assets/snippets/counter_store_vue.png" height="120")
+                img(src="./assets/snippets/counter_component_vue.png" height="120")
+        
+        section
+          h1 3. Modules
         section
           h2 modules
           .row
@@ -93,13 +121,30 @@
           img(src="./assets/modules_4.png")
 
         section
+          h1 4. Dependency injection
+        section
           h2 dependency injection
+          .row
+            .col-50
+              img.indicator(src="./assets/angular.jpg" height="50")
+              span Built in
+            .col-50
+              img.indicator(src="./assets/logo.png" height="50")
+              span provide/inject
           p Todo: show a snippet
+        section
+          h2 Provide/inject
+          img.abs-indicator-two(src="./assets/logo.png" height="100")
+          img(src="./assets/snippets/vue_provide_inject.png" height="500")
 
         section
+          h1 5. Unit testing
+        section
           h2 Unit testing
-          p Todo: show a snippet
+          p Todo: show snippets
         
+        section
+          h1 6. CLI
         section
           h2 CLI
           .row
@@ -110,6 +155,8 @@
               img.indicator(src="./assets/logo.png" height="50")
               span UI
 
+        section
+          h1 7. Server side rendering
         section
           h2 Server side rendering
           .row
@@ -177,6 +224,13 @@ export default {
 .abs-indicator {
   position: absolute;
   top: -100px;
+  left: -100px;
+  background-color: white;
+}
+
+.abs-indicator-two {
+  position: absolute;
+  top: 0px;
   left: -100px;
   background-color: white;
 }

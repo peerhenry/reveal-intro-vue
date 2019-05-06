@@ -21,6 +21,8 @@
               p.fragment VueJS :D
               p.fragment Angular :-/
         section
+          img(src="./assets/risingstars.png")
+        section
           h2 Getting started...
           p.fragment Raw JS
           p.fragment Webpack
@@ -131,7 +133,6 @@
             .col-50
               img.indicator(src="./assets/logo.png" height="50")
               span provide/inject
-          p Todo: show a snippet
         section
           h2 Provide/inject
           img.abs-indicator-two(src="./assets/logo.png" height="100")
@@ -153,7 +154,7 @@
               span scaffolding
             .col-50
               img.indicator(src="./assets/logo.png" height="50")
-              span UI
+              span UI, many options
 
         section
           h1 7. Server side rendering
@@ -167,6 +168,13 @@
               img.indicator(src="./assets/logo.png" height="50")
               span vue-server-renderer
         
+        section
+          h2 Other things to compare
+          ul
+            li Performance
+            li Bundle size
+            li Customization
+
         section
           img(src="./assets/parrot.gif")
 </template>

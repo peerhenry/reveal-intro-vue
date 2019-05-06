@@ -1,6 +1,15 @@
 
 
 
+10:00 - 12:30
+
+10-11 final snippets: unit testing, angular DI snippet?, nog iets over callbacks?
+11-12 testrun example app
+
+
+
+
+
 
 intro
 
@@ -10,20 +19,22 @@ intro
 
 === tech demo: vue ui ===
 - plugins: pug
-
-vue dev tools
-component
+component - vue dev tools
 - name 
-- data
-- 
-
-
+- data 
+- hooks
 # router
 - route props
 - route query params
 - lazy loading
 
+=== demo ===
+
 # store: Vuex
+
+# modules
+
+# dependency injection
 
 # unit testing
 

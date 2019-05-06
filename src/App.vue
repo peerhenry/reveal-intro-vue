@@ -23,6 +23,8 @@
         section
           img(src="./assets/risingstars.png")
         section
+          img(src="./assets/downloads.png")
+        section
           h2 Getting started...
           p.fragment Raw JS
           p.fragment Webpack
@@ -174,6 +176,7 @@
             li Performance
             li Bundle size
             li Customization
+            li callbacks
 
         section
           img(src="./assets/parrot.gif")

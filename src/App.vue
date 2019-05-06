@@ -87,7 +87,11 @@
         section(data-transition="slide-in fade-out")
           h4 Setting up a counter store in Vue
           img.abs-indicator-two(src="./assets/logo.png" height="100")
-          img(src="./assets/snippets/counter_store_vue.png")
+          img(src="./assets/snippets/counter_store_mut_vue.png")
+        section(data-transition="fade-in slide-out")
+          h4 Accessing the store in Vue
+          img.abs-indicator-two(src="./assets/logo.png" height="100")
+          img(src="./assets/snippets/counter_mapmutations_vue.png")
         section(data-transition="fade-in slide-out")
           h4 Accessing the store in Vue
           img.abs-indicator-two(src="./assets/logo.png" height="100")
@@ -148,8 +152,17 @@
         section
           h1 5. Unit testing
         section
-          h2 Unit testing
-          p Todo: show snippets
+          h2 Mocking
+          img.abs-indicator-two(src="./assets/logo.png" height="100")
+          img(src="./assets/snippets/testing/vue_mock.png" height="500")
+        section
+          h2 Mounting & stubbing
+          img.abs-indicator-two(src="./assets/logo.png" height="100")
+          img(src="./assets/snippets/testing/vue_mount.png" height="500")
+        section
+          h2 Testing
+          img.abs-indicator-two(src="./assets/logo.png" height="100")
+          img(src="./assets/snippets/testing/vue_test.png" height="500")
         
         section
           h1 6. CLI

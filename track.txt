@@ -6,6 +6,11 @@
 10-11 final snippets: unit testing, angular DI snippet?, nog iets over callbacks?
 11-12 testrun example app
 
+1. at least 2 unit testing snippets, discuss mocking
+2. di snippets
+3. setup vanilla example + testrun through dummy
+4. callbacks snippets
+
 
 
 

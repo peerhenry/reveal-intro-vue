@@ -134,7 +134,7 @@
           img(src="./assets/modules_4.png")
 
         section
-          h1 4. Dependency injection
+          h1 4. Dependency injection & Unit testing
         section
           h2 dependency injection
           .row
@@ -145,14 +145,11 @@
               img.indicator(src="./assets/logo.png" height="50")
               span provide/inject
         section
-          h2 Provide/inject
+          h2 DI: Provide/inject
           img.abs-indicator-two(src="./assets/logo.png" height="100")
           img(src="./assets/snippets/vue_provide_inject.png" height="500")
-
         section
-          h1 5. Unit testing
-        section
-          h2 Mocking
+          h2 Unit testing: Mocking
           img.abs-indicator-two(src="./assets/logo.png" height="100")
           img(src="./assets/snippets/testing/vue_mock.png" height="500")
         section
@@ -163,21 +160,13 @@
           h2 Testing
           img.abs-indicator-two(src="./assets/logo.png" height="100")
           img(src="./assets/snippets/testing/vue_test.png" height="500")
-        
         section
-          h1 6. CLI
-        section
-          h2 CLI
-          .row
-            .col-50
-              img.indicator(src="./assets/angular.jpg" height="50")
-              span scaffolding
-            .col-50
-              img.indicator(src="./assets/logo.png" height="50")
-              span UI, many options
+          h2 Tests for every component
+          img.abs-indicator-two(src="./assets/angular.jpg" height="100")
+          img(src="./assets/snippets/testing/angular_default.png" height="500")
 
         section
-          h1 7. Server side rendering
+          h1 5. Server side rendering
         section
           h2 Server side rendering
           .row
@@ -187,6 +176,8 @@
             .col-50
               img.indicator(src="./assets/logo.png" height="50")
               span vue-server-renderer
+        section
+          img(src="./assets/nuxt.png")
         
         section
           h2 Other things to compare

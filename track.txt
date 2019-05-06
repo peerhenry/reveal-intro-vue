@@ -12,6 +12,14 @@
 4. callbacks snippets
 
 
+- setup vanilla project + pug
+
+
+- refactor component to pug
+- write a component with state
+- write 
+
+
 
 
 
